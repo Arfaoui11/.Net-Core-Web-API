@@ -28,6 +28,7 @@ namespace Data
             optionsBuilder.UseNpgsql(@"Server=localhost;Port=5432;Database=dataDB;User Id=postgres;Password=0000");
             base.OnConfiguring(optionsBuilder);
         }
+        //new methode 
 
         public DbSet<Cagnotte> Cagnotte { get; set; }
         public DbSet<Entreprise> Entreprise { get; set; }
