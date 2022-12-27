@@ -43,8 +43,8 @@ namespace RestAPIs.Controllers
             }
             catch (Exception ex)
             {
-                return Ok(ex);
-                Console.WriteLine(ex);
+                return BadRequest(ex);
+                
             }
         }
 
