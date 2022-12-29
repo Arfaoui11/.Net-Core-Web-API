@@ -63,7 +63,7 @@ namespace ServicePattern
             }
             catch (Exception ex)
             {
-                throw;
+                System.Console.WriteLine(ex);
             }
         }
     }

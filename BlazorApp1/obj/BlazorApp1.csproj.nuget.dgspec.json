@@ -27,7 +27,20 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj"
+              },
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj"
+              },
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Service\\Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,15 +52,82 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\LEGION-5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LEGION-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[5.0.11, )"
             },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[5.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -56,28 +136,206 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.12, 6.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\LEGION-5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LEGION-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
-      "runtimes": {
-        "browser-wasm": {
-          "#import": []
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj",
+        "projectName": "ServicePattern",
+        "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj",
+        "packagesPath": "C:\\Users\\LEGION-5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LEGION-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\LEGION-5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LEGION-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj"
+              },
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj": {
+                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,9 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Service;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace RestAPIs.Controllers
 {
@@ -15,18 +16,20 @@ namespace RestAPIs.Controllers
 
         private readonly IServiceCagnotte cagnotteService;
         private readonly IServiceEntreprise entrepriseService;
-        public CagnotteController(IServiceCagnotte sc, IServiceEntreprise se)
+        private readonly Context _context;
+        public CagnotteController(IServiceCagnotte sc, IServiceEntreprise se,Context ctx)
         {
+            _context = ctx;
             cagnotteService = sc;
             entrepriseService = se;
         }
 
         // GET: CagnotteController
         [HttpGet] 
-        public IActionResult GetAllCagnotte()
+        public async Task<IActionResult> GetAllCagnotte()
         {
             
-            return Ok(cagnotteService.GetMany());
+            return Ok(await _context.Entreprise.ToArrayAsync());
 
         }
 

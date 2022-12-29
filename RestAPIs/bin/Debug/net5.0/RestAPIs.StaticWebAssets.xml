@@ -1,1 +1,5 @@
-﻿<StaticWebAssets Version="1.0" />
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\wwwroot\" />
+</StaticWebAssets>

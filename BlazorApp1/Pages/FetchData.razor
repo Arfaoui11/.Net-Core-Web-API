@@ -1,13 +1,16 @@
 ﻿@page "/fetchdata"
-@inject HttpClient Http
-
+@using Service
+@using Domain
+@inject HttpClient _http
+@inject IServiceEntreprise _serviceEntreprise
 <PageTitle>Weather forecast</PageTitle>
 
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
 
-@if (forecasts == null)
+
+@if (_entreprises == null)
 {
     <p>
         <em>Loading...</em>
@@ -18,20 +21,20 @@ else
     <table class="table">
         <thead>
         <tr>
-            <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
-            <th>Summary</th>
+            <th>EntrepriseId</th>
+            <th>AdresseEntreprise</th>
+            <th>NomEntreprise</th>
+            <th>MailEntreprise</th>
         </tr>
         </thead>
         <tbody>
-        @foreach (var forecast in forecasts)
+        @foreach (var entreprise in _entreprises)
         {
             <tr>
-                <td>@forecast.Date.ToShortDateString()</td>
-                <td>@forecast.TemperatureC</td>
-                <td>@forecast.TemperatureF</td>
-                <td>@forecast.Summary</td>
+                <td>@entreprise.AdresseEntreprise</td>
+                <td>@entreprise.AdresseEntreprise</td>
+                <td>@entreprise.NomEntreprise</td>
+                <td>@entreprise.MailEntreprise</td>
             </tr>
         }
         </tbody>
@@ -39,11 +42,15 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    
+    List<Entreprise> _entreprises = new List<Entreprise>();
+   
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        var response = await _http.GetAsync("api/Entreprise");
+        response.EnsureSuccessStatusCode();
+        _entreprises = await response.Content.ReadFromJsonAsync<List<Entreprise>>();
     }
 
     public class WeatherForecast

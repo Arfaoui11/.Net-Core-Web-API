@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "14rfoUC1+2bB6pOtBlXyxV01P2OZwM3/x95I4PfbeBuhlD2LdVCCmaYpF8xSnelM1dWMGt3S3kVJyoUjlEJY+g==",
+  "dgSpecHash": "dAT9Ce79BVgQPf+4N42AscPGEU4x9OStIIyVNVVpAE0OsygvkLIaDGixzkTupdWy2sEQ9Pd0tXvCLwWK8m5gDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Service\\Service.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.11\\microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\5.0.11\\microsoft.entityframeworkcore.proxies.5.0.11.nupkg.sha512",
-    "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.1\\microsoft.entityframeworkcore.relational.5.0.1.nupkg.sha512",
+    "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.11\\microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
