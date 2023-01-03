@@ -15,12 +15,16 @@ namespace RestApiView.Data
         [Inject]
         HttpClient Http { get; set; }
 
+      
+
+        protected string SearchString { get; set; } = string.Empty;
+
         [Inject]
         public NavigationManager NavigationManager { get; set; }
 
         protected List<Entreprise> entrepriseList = new();
+        protected List<Entreprise> searchEntreData = new();
 
-       
         protected override async Task OnInitializedAsync()
         {
             await GetEntreprise();
@@ -29,10 +33,22 @@ namespace RestApiView.Data
         protected async Task GetEntreprise()
         {
             entrepriseList = await Http.GetFromJsonAsync<List<Entreprise>>("api/Entreprise");
-            
+            searchEntreData = entrepriseList;
+        }
+        protected void FilterEmp()
+        {
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                entrepriseList = searchEntreData
+                    .Where(x => x.NomEntreprise.IndexOf(SearchString, StringComparison.OrdinalIgnoreCase) != -1)
+                    .ToList();
+            }
+            else
+            {
+                entrepriseList = searchEntreData;
+            }
         }
 
-       
 
         protected async Task DeleteEntreprise(int EntreID)
         {
@@ -40,10 +56,14 @@ namespace RestApiView.Data
             await GetEntreprise();
         }
 
+        public void ResetSearch()
+        {
+            SearchString = string.Empty;
+            entrepriseList = searchEntreData;
+        }
 
-     
 
-        
+
 
         [Parameter]
         public int EntreID { get; set; }
