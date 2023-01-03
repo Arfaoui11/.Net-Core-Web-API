@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj": {}
+    "/Users/macos/RiderProjects/.Net-Core-Web-API/ServicePattern/ServicePattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj": {
+    "/Users/macos/RiderProjects/.Net-Core-Web-API/Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj",
+        "projectUniqueName": "/Users/macos/RiderProjects/.Net-Core-Web-API/Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\LEGION-5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\obj\\",
+        "projectPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/Data/Data.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LEGION-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/macos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj"
+              "/Users/macos/RiderProjects/.Net-Core-Web-API/Domain/Domain.csproj": {
+                "projectPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/Domain/Domain.csproj"
               }
             }
           }
@@ -82,28 +80,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj": {
+    "/Users/macos/RiderProjects/.Net-Core-Web-API/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/macos/RiderProjects/.Net-Core-Web-API/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\LEGION-5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Domain\\obj\\",
+        "projectPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/Domain/Domain.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LEGION-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/macos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -150,36 +146,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj": {
+    "/Users/macos/RiderProjects/.Net-Core-Web-API/ServicePattern/ServicePattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj",
+        "projectUniqueName": "/Users/macos/RiderProjects/.Net-Core-Web-API/ServicePattern/ServicePattern.csproj",
         "projectName": "ServicePattern",
-        "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\ServicePattern.csproj",
-        "packagesPath": "C:\\Users\\LEGION-5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\ServicePattern\\obj\\",
+        "projectPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/ServicePattern/ServicePattern.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/ServicePattern/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LEGION-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/macos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\Data\\Data.csproj"
+              "/Users/macos/RiderProjects/.Net-Core-Web-API/Data/Data.csproj": {
+                "projectPath": "/Users/macos/RiderProjects/.Net-Core-Web-API/Data/Data.csproj"
               }
             }
           }
@@ -208,7 +202,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

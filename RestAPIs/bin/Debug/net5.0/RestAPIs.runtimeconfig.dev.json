@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\LEGION-5\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\LEGION-5\\.nuget\\packages"
+      "/Users/macos/.dotnet/store/|arch|/|tfm|",
+      "/Users/macos/.nuget/packages"
     ]
   }
 }

@@ -1,33 +1,50 @@
-C:\Users\Asus\source\repos\Examen\Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
-C:\Users\Asus\source\repos\Examen\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
-C:\Users\Asus\source\repos\Examen\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
-C:\Users\Asus\source\repos\Examen\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\Service.deps.json
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\Service.dll
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\Service.pdb
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\Data.dll
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\ServicePattern.dll
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Asus\source\repos\Examen\Service\bin\Debug\netcoreapp3.1\ServicePattern.pdb
-C:\Users\Asus\source\repos\Examen\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
-C:\Users\Asus\source\repos\Examen\Service\obj\Debug\netcoreapp3.1\Service.dll
-C:\Users\Asus\source\repos\Examen\Service\obj\Debug\netcoreapp3.1\Service.pdb
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\Service.deps.json
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\Service.dll
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\Service.pdb
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\Data.dll
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\ServicePattern.dll
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\bin\Debug\netcoreapp3.1\ServicePattern.pdb
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.dll
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:/Users/Asus/source/repos/Examen/Service/obj/Debug/netcoreapp3.1/Service.csproj.AssemblyReference.cache
+C:/Users/Asus/source/repos/Examen/Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+C:/Users/Asus/source/repos/Examen/Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+C:/Users/Asus/source/repos/Examen/Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/Service.deps.json
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/Service.dll
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/Service.pdb
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/Data.dll
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/ServicePattern.dll
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/Data.pdb
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/Asus/source/repos/Examen/Service/bin/Debug/netcoreapp3.1/ServicePattern.pdb
+C:/Users/Asus/source/repos/Examen/Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete
+C:/Users/Asus/source/repos/Examen/Service/obj/Debug/netcoreapp3.1/Service.dll
+C:/Users/Asus/source/repos/Examen/Service/obj/Debug/netcoreapp3.1/Service.pdb
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/Service.deps.json
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/Service.dll
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/Service.pdb
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/Data.dll
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/ServicePattern.dll
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/Data.pdb
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/bin/Debug/netcoreapp3.1/ServicePattern.pdb
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.csproj.AssemblyReference.cache
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.dll
+C:/Users/LEGION-5/Desktop/NET CORS/Examen/Service/obj/Debug/netcoreapp3.1/Service.pdb
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/Service.deps.json
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/Service.dll
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/Service.pdb
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/Data.dll
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/ServicePattern.dll
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/Data.pdb
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/bin/Debug/netcoreapp3.1/ServicePattern.pdb
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.csproj.AssemblyReference.cache
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.dll
+/Users/macos/RiderProjects/.Net-Core-Web-API/Service/obj/Debug/netcoreapp3.1/Service.pdb

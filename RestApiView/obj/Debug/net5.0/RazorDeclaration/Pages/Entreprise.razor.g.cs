@@ -13,70 +13,70 @@ namespace RestApiView.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 1 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 2 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 3 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 4 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 5 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 6 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 7 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 8 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 9 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using RestApiView;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\_Imports.razor"
+#line 10 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/_Imports.razor"
 using RestApiView.Shared;
 
 #line default
@@ -91,7 +91,7 @@ using RestApiView.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 107 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
+#line 107 "/Users/macos/RiderProjects/.Net-Core-Web-API/RestApiView/Pages/Entreprise.razor"
        
     bool showModal = false;
 
