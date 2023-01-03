@@ -1,0 +1,40 @@
+﻿@page "/entreprise/add"
+@page "/entreprise/edit/{EntreID:int}"
+@inherits Data.ServiceE
+
+<h1>@Title Entreprise</h1>
+<hr />
+
+<EditForm Model="@entreprise" OnValidSubmit="SaveEntreprise">
+    <DataAnnotationsValidator />
+    <div class="mb-3">
+        <label for="Name" class="form-label">NomEntreprise</label>
+        <div class="col-md-4">
+            <InputText class="form-control" @bind-Value="entreprise.NomEntreprise" />
+        </div>
+        <ValidationMessage For="@(() => entreprise.NomEntreprise)" />
+    </div>
+    <div class="mb-3">
+        <label for="Gender" class="form-label">MailEntreprise</label>
+        <div class="col-md-4">
+            <InputText class="form-control" @bind-Value="entreprise.MailEntreprise" />
+        </div>
+        <ValidationMessage For="@(() => entreprise.MailEntreprise)" />
+    </div>
+    <div class="mb-3">
+        <label for="Department" class="form-label">AdresseEntreprise</label>
+        <div class="col-md-4">
+            <InputText class="form-control" @bind-Value="entreprise.AdresseEntreprise" />
+        </div>
+        <ValidationMessage For="@(() => entreprise.AdresseEntreprise)" />
+    </div>
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button class="btn btn-light" @onclick="Cancel">Cancel</button>
+    </div>
+</EditForm>
+
+@code {
+
+}
