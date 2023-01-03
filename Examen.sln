@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAPIs", "RestAPIs\RestAPIs.csproj", "{EC7AB680-0681-42D6-A9AC-C1DB3090C244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiView", "RestApiView\RestApiView.csproj", "{64728AE0-5F3E-4975-81ED-84B5B7ED2FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApiView", "RestApiView\RestApiView.csproj", "{64728AE0-5F3E-4975-81ED-84B5B7ED2FA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

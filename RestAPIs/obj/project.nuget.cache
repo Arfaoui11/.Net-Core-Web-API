@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "vIOyNY+p/XW6J/Q3gs6wsvdlERBK0Aq+QBWu9MAmDVaSYJL2UnrYe/bjXJUQw6I5V+tRmAo92yd2OcIaqeoY3w==",
+  "dgSpecHash": "C6ibZfTz7bkeBkAwSFu09XA6DgcrFAJDWCgx9ScIFYHuKf6s7uo44/Jt4q95JEi9+rCybbgf2ACOBgvWDjnfPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LEGION-5\\Desktop\\NET CORS\\Examen\\RestAPIs\\RestAPIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LEGION-5\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\LEGION-5\\.nuget\\packages\\majorsoft.blazor.components.common.jsinterop\\1.5.0\\majorsoft.blazor.components.common.jsinterop.1.5.0.nupkg.sha512",
+    "C:\\Users\\LEGION-5\\.nuget\\packages\\majorsoft.blazor.components.cssevents\\1.5.0\\majorsoft.blazor.components.cssevents.1.5.0.nupkg.sha512",
+    "C:\\Users\\LEGION-5\\.nuget\\packages\\majorsoft.blazor.components.modal\\1.5.0\\majorsoft.blazor.components.modal.1.5.0.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",
     "C:\\Users\\LEGION-5\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.17\\microsoft.aspnetcore.components.analyzers.5.0.17.nupkg.sha512",

@@ -34,6 +34,7 @@
       "RestAPIs/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Majorsoft.Blazor.Components.Modal": "1.5.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "5.0.11",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.11",
           "Microsoft.EntityFrameworkCore": "5.0.11",
@@ -356,6 +357,55 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "Majorsoft.Blazor.Components.Common.JsInterop/1.5.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.17"
+        },
+        "runtime": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Common.JsInterop.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Common.JsInterop.dll": {}
+        }
+      },
+      "Majorsoft.Blazor.Components.CssEvents/1.5.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.17"
+        },
+        "runtime": {
+          "lib/net5.0/Majorsoft.Blazor.Components.CssEvents.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Majorsoft.Blazor.Components.CssEvents.dll": {}
+        }
+      },
+      "Majorsoft.Blazor.Components.Modal/1.5.0": {
+        "dependencies": {
+          "Majorsoft.Blazor.Components.Common.JsInterop": "1.5.0",
+          "Majorsoft.Blazor.Components.CssEvents": "1.5.0",
+          "Microsoft.AspNetCore.Components.Web": "5.0.17"
+        },
+        "runtime": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Core.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          },
+          "lib/net5.0/Majorsoft.Blazor.Components.Modal.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Core.dll": {},
+          "lib/net5.0/Majorsoft.Blazor.Components.Modal.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/5.0.17": {
@@ -2134,6 +2184,7 @@
       "RestApiView/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Majorsoft.Blazor.Components.Modal": "1.5.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.17",
           "Service": "1.0.0",
           "ServicePattern": "1.0.0",
@@ -3835,6 +3886,27 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "Majorsoft.Blazor.Components.Common.JsInterop/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1nYC8x1F+ek5QFQoiynPWgg2fuRNDP5NUFQ4ZdH2kvU4np5FPOlxJnHHdRjC18iACJinHMuuXIk4gvnNz67nxg==",
+      "path": "majorsoft.blazor.components.common.jsinterop/1.5.0",
+      "hashPath": "majorsoft.blazor.components.common.jsinterop.1.5.0.nupkg.sha512"
+    },
+    "Majorsoft.Blazor.Components.CssEvents/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IVT9hf3EKpI/3qs1eMTyXkCm495Mtrc5F2vLvEfXGPX3ut4/J8u+QZxJPfxwgwT3NnJNOF3gCJLkZyV0Fu2Rdw==",
+      "path": "majorsoft.blazor.components.cssevents/1.5.0",
+      "hashPath": "majorsoft.blazor.components.cssevents.1.5.0.nupkg.sha512"
+    },
+    "Majorsoft.Blazor.Components.Modal/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PdGRA5ccJtAIUZzfPw9HawXPU7KwybtFIU52lWfaOLcHWtfE6T+1ig5a+yB/Do6fNm9L3aK274H3xaSepd0xAg==",
+      "path": "majorsoft.blazor.components.modal/1.5.0",
+      "hashPath": "majorsoft.blazor.components.modal.1.5.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/5.0.17": {
       "type": "package",

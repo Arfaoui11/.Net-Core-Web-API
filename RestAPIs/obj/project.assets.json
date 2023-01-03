@@ -32,6 +32,64 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "Majorsoft.Blazor.Components.Common.JsInterop/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.3"
+        },
+        "compile": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Common.JsInterop.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Common.JsInterop.dll": {}
+        },
+        "build": {
+          "buildTransitive/Majorsoft.Blazor.Components.Common.JsInterop.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Majorsoft.Blazor.Components.Common.JsInterop.props": {}
+        }
+      },
+      "Majorsoft.Blazor.Components.CssEvents/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.3"
+        },
+        "compile": {
+          "lib/net5.0/Majorsoft.Blazor.Components.CssEvents.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Majorsoft.Blazor.Components.CssEvents.dll": {}
+        },
+        "build": {
+          "buildTransitive/Majorsoft.Blazor.Components.CssEvents.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Majorsoft.Blazor.Components.CssEvents.props": {}
+        }
+      },
+      "Majorsoft.Blazor.Components.Modal/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Majorsoft.Blazor.Components.Common.JsInterop": "1.5.0",
+          "Majorsoft.Blazor.Components.CssEvents": "1.5.0",
+          "Microsoft.AspNetCore.Components.Web": "5.0.3"
+        },
+        "compile": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Core.dll": {},
+          "lib/net5.0/Majorsoft.Blazor.Components.Modal.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Majorsoft.Blazor.Components.Core.dll": {},
+          "lib/net5.0/Majorsoft.Blazor.Components.Modal.dll": {}
+        },
+        "build": {
+          "buildTransitive/Majorsoft.Blazor.Components.Modal.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Majorsoft.Blazor.Components.Modal.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/5.0.17": {
         "type": "package",
         "dependencies": {
@@ -2554,6 +2612,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Domain": "1.0.0",
+          "Majorsoft.Blazor.Components.Modal": "1.5.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.17",
           "Service": "1.0.0",
           "ServicePattern": "1.0.0",
@@ -2636,6 +2695,89 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Majorsoft.Blazor.Components.Common.JsInterop/1.5.0": {
+      "sha512": "1nYC8x1F+ek5QFQoiynPWgg2fuRNDP5NUFQ4ZdH2kvU4np5FPOlxJnHHdRjC18iACJinHMuuXIk4gvnNz67nxg==",
+      "type": "package",
+      "path": "majorsoft.blazor.components.common.jsinterop/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "blazor.components.png",
+        "build/Majorsoft.Blazor.Components.Common.JsInterop.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Majorsoft.Blazor.Components.Common.JsInterop.props",
+        "buildTransitive/Majorsoft.Blazor.Components.Common.JsInterop.props",
+        "lib/net5.0/Majorsoft.Blazor.Components.Common.JsInterop.dll",
+        "majorsoft.blazor.components.common.jsinterop.1.5.0.nupkg.sha512",
+        "majorsoft.blazor.components.common.jsinterop.nuspec",
+        "staticwebassets/Majorsoft.Blazor.Components.Common.JsInterop.bundle.scp.css",
+        "staticwebassets/click.js",
+        "staticwebassets/click.min.js",
+        "staticwebassets/clipboard.js",
+        "staticwebassets/clipboard.min.js",
+        "staticwebassets/colorTheme.js",
+        "staticwebassets/colorTheme.min.js",
+        "staticwebassets/elementInfo.js",
+        "staticwebassets/elementInfo.min.js",
+        "staticwebassets/focus.js",
+        "staticwebassets/focus.min.js",
+        "staticwebassets/geo.js",
+        "staticwebassets/geo.min.js",
+        "staticwebassets/globalMouseEvents.js",
+        "staticwebassets/globalMouseEvents.min.js",
+        "staticwebassets/head.js",
+        "staticwebassets/head.min.js",
+        "staticwebassets/lang.js",
+        "staticwebassets/lang.min.js",
+        "staticwebassets/resize.js",
+        "staticwebassets/resize.min.js",
+        "staticwebassets/scroll.js",
+        "staticwebassets/scroll.min.js"
+      ]
+    },
+    "Majorsoft.Blazor.Components.CssEvents/1.5.0": {
+      "sha512": "IVT9hf3EKpI/3qs1eMTyXkCm495Mtrc5F2vLvEfXGPX3ut4/J8u+QZxJPfxwgwT3NnJNOF3gCJLkZyV0Fu2Rdw==",
+      "type": "package",
+      "path": "majorsoft.blazor.components.cssevents/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "blazor.components.png",
+        "build/Majorsoft.Blazor.Components.CssEvents.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Majorsoft.Blazor.Components.CssEvents.props",
+        "buildTransitive/Majorsoft.Blazor.Components.CssEvents.props",
+        "lib/net5.0/Majorsoft.Blazor.Components.CssEvents.dll",
+        "majorsoft.blazor.components.cssevents.1.5.0.nupkg.sha512",
+        "majorsoft.blazor.components.cssevents.nuspec",
+        "staticwebassets/animationEvents.js",
+        "staticwebassets/animationEvents.min.js",
+        "staticwebassets/transitionEvents.js",
+        "staticwebassets/transitionEvents.min.js"
+      ]
+    },
+    "Majorsoft.Blazor.Components.Modal/1.5.0": {
+      "sha512": "PdGRA5ccJtAIUZzfPw9HawXPU7KwybtFIU52lWfaOLcHWtfE6T+1ig5a+yB/Do6fNm9L3aK274H3xaSepd0xAg==",
+      "type": "package",
+      "path": "majorsoft.blazor.components.modal/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "blazor.components.png",
+        "build/Majorsoft.Blazor.Components.Modal.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Majorsoft.Blazor.Components.Modal.props",
+        "buildTransitive/Majorsoft.Blazor.Components.Modal.props",
+        "lib/net5.0/Majorsoft.Blazor.Components.Core.dll",
+        "lib/net5.0/Majorsoft.Blazor.Components.Modal.dll",
+        "majorsoft.blazor.components.modal.1.5.0.nupkg.sha512",
+        "majorsoft.blazor.components.modal.nuspec",
+        "staticwebassets/Majorsoft.Blazor.Components.Modal.bundle.scp.css"
       ]
     },
     "Microsoft.AspNetCore.Authorization/5.0.17": {
@@ -8068,6 +8210,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Domain >= 1.0.0",
+      "Majorsoft.Blazor.Components.Modal >= 1.5.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.11",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.11",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
@@ -8133,6 +8276,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Majorsoft.Blazor.Components.Modal": {
+            "target": "Package",
+            "version": "[1.5.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[5.0.11, )"

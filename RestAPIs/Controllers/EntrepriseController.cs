@@ -29,8 +29,18 @@ namespace RestAPIs.Controllers
             return Ok(entrepriseService.GetMany());
 
         }
-        
-        
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            Entreprise entreprise = entrepriseService.GetById(id);
+            if (entreprise != null)
+            {
+                return Ok(entreprise);
+            }
+            return NotFound();
+        }
+
+
         [HttpPost]
         [Route("create")]
         public IActionResult AddEntreprise([FromBody] Entreprise  entreprise )

@@ -205,6 +205,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Majorsoft.Blazor.Components.Modal": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -309,6 +313,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Majorsoft.Blazor.Components.Modal": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[5.0.17, )"
