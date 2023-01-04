@@ -89,7 +89,7 @@ using RestApiView.Shared;
             __builder.AddMarkupContent(1, "<p>This component demonstrates CRUD operation on Entreprise data</p>\r\n\r\n");
             __builder.OpenElement(2, "div");
             __builder.AddAttribute(3, "class", "row");
-            __builder.AddMarkupContent(4, "<div class=\"col-md-6\"><a href=\"/entreprise/add\" class=\"btn btn-primary\" role=\"button\"><i class=\"fas fa-user-plus\"></i>\r\n            Add Entreprise\r\n        </a></div>\r\n     ");
+            __builder.AddMarkupContent(4, "<div class=\"col-md-6\"><a href=\'/entreprise/add\' class=\"btn btn-primary\" role=\"button\"><i class=\"fas fa-user-plus\"></i>\r\n            Add Entreprise\r\n        </a></div>\r\n     ");
             __builder.OpenElement(5, "div");
             __builder.AddAttribute(6, "class", "input-group col");
             __builder.OpenElement(7, "input");
@@ -183,51 +183,43 @@ else
 #nullable disable
             __builder.OpenElement(26, "tr");
             __builder.OpenElement(27, "td");
-            __builder.AddContent(28, 
 #nullable restore
 #line 48 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
-                         entreprise.EntrepriseId
+__builder.AddContent(28, entreprise.EntrepriseId);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(29, "\r\n                    ");
             __builder.OpenElement(30, "td");
-            __builder.AddContent(31, 
 #nullable restore
 #line 49 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
-                         entreprise.NomEntreprise
+__builder.AddContent(31, entreprise.NomEntreprise);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(32, "\r\n                    ");
             __builder.OpenElement(33, "td");
-            __builder.AddContent(34, 
 #nullable restore
 #line 50 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
-                         entreprise.MailEntreprise
+__builder.AddContent(34, entreprise.MailEntreprise);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(35, "\r\n                    ");
             __builder.OpenElement(36, "td");
-            __builder.AddContent(37, 
 #nullable restore
 #line 51 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
-                         entreprise.AdresseEntreprise
+__builder.AddContent(37, entreprise.AdresseEntreprise);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(38, "\r\n                    ");
             __builder.OpenElement(39, "td");
@@ -323,45 +315,39 @@ else
             __builder.OpenElement(75, "tr");
             __builder.AddMarkupContent(76, "<td>NomEntreprise</td>\r\n                            ");
             __builder.OpenElement(77, "td");
-            __builder.AddContent(78, 
 #nullable restore
 #line 82 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
-                                 entreprise.NomEntreprise
+__builder.AddContent(78, entreprise.NomEntreprise);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.AddMarkupContent(79, "\r\n                        ");
             __builder.OpenElement(80, "tr");
             __builder.AddMarkupContent(81, "<td>MailEntreprise</td>\r\n                            ");
             __builder.OpenElement(82, "td");
-            __builder.AddContent(83, 
 #nullable restore
 #line 86 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
-                                 entreprise.MailEntreprise
+__builder.AddContent(83, entreprise.MailEntreprise);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.AddMarkupContent(84, "\r\n                        ");
             __builder.OpenElement(85, "tr");
             __builder.AddMarkupContent(86, "<td>AdresseEntreprise</td>\r\n                            ");
             __builder.OpenElement(87, "td");
-            __builder.AddContent(88, 
 #nullable restore
 #line 90 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\Entreprise.razor"
-                                 entreprise.AdresseEntreprise
+__builder.AddContent(88, entreprise.AdresseEntreprise);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.CloseElement();

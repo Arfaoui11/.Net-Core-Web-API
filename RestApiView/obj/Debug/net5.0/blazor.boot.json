@@ -208,19 +208,21 @@
       "mscorlib.dll": "sha256-zMI\/dXK7DoZZ9Qm9U9\/jRN4iQ9Ss3w8\/rwQQxC6SW9Y=",
       "netstandard.dll": "sha256-W3q3PN+lpRB+tRJEIhtMgYOGFv0pauEeeCS9iIRkKAM=",
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
-      "Data.dll": "sha256-tymEyFXDOnfRxF5ANUUuwkMz4dp1wetx0zC3\/aJ4QTs=",
-      "Domain.dll": "sha256-LiWgjKmnKAfVoWIdezSrFZj5xNdgOiJALM0kOO5v9Bg=",
-      "Service.dll": "sha256-ghnGR2xPBxodIuUXlm6xdzabWSRHlIo4\/IUdqRQV7c8=",
-      "ServicePattern.dll": "sha256-F2pDRiU2Q7Oct0O9lltMyXijOznTUEPCi4qaQLvhLxA=",
-      "RestApiView.dll": "sha256-6j3xSzu50T1WFDpbs3aX04HRV83ota0cVZGB\/J2hPzs="
+      "Data.dll": "sha256-N1\/H0Glv36ZgYAuBqlKwqwW03Hb1BHssNnAWYfShuqM=",
+      "Domain.dll": "sha256-qNbSIsj4pWUZ\/ZTKGeneP8wnorwF93Q6WgzsDEyYfO4=",
+      "Service.dll": "sha256-t3FJO3Vr+NoUoZe+ESOV8T+fjV+GcEJz6lHK0D3N1vo=",
+      "ServicePattern.dll": "sha256-oU8yfmXt6BCz61mYlIObctFYCDiW2PlI6OGpRSuIA+E=",
+      "RestApiView.dll": "sha256-jbuely4wt\/rP1L9KBOA3AG6G634HHS87W+ySZZl52E0="
     },
+    "extensions": null,
     "lazyAssembly": null,
+    "libraryInitializers": null,
     "pdb": {
-      "Domain.pdb": "sha256-mgu7MsZYs30R7w0revT9aRlFBSvaCuEXi1zfvq\/bvqY=",
-      "ServicePattern.pdb": "sha256-zIe4+q6d68LXn3fuZWoMn5FJ7No0t5g4KRs4hSW2P7k=",
-      "Service.pdb": "sha256-fVwrsQjmJU8hSusZArIRf2B2Awo2IBuQ\/jRzl0R8AXU=",
-      "Data.pdb": "sha256-DGRg\/DsQ0rbekDn87UbdT4SJ1DMNhkGlhmkDkpvdPa8=",
-      "RestApiView.pdb": "sha256-pIq3oaG\/Ca3Vi\/5I8lKJfojSFCZPT0W57OqgevoIRl0="
+      "Domain.pdb": "sha256-ulZvm5bu5f\/ss6nbpkhMT2cJU9HLryhHAyFXvmgDzoA=",
+      "ServicePattern.pdb": "sha256-THmqAAMVAXrzjNc1joKm0M\/lPaLhRyukLarulggBkK8=",
+      "Service.pdb": "sha256-oa1kiw+SGDnLQo1w21ZhEyq8n6kpx6579gZVC5YdT2o=",
+      "Data.pdb": "sha256-iyaEH1tyDEGwbMZS0\/F+i9ohElV0IcHR8NgPl6leFG4=",
+      "RestApiView.pdb": "sha256-XlxHegY\/WgCfFPHEvAMxytNloDBXhi8c8DHhag78\/bo="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

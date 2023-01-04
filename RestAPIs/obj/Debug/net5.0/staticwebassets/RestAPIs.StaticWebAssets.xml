@@ -1,9 +1,9 @@
 ﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Majorsoft.Blazor.Components.Common.JsInterop" Path="C:\Users\LEGION-5\.nuget\packages\majorsoft.blazor.components.common.jsinterop\1.5.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Majorsoft.Blazor.Components.CssEvents" Path="C:\Users\LEGION-5\.nuget\packages\majorsoft.blazor.components.cssevents\1.5.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Majorsoft.Blazor.Components.Modal" Path="C:\Users\LEGION-5\.nuget\packages\majorsoft.blazor.components.modal\1.5.0\build\..\staticwebassets\" />
   <ContentRoot BasePath="/" Path="C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\obj\Debug\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="/" Path="C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="/" Path="C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="/" Path="C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\wwwroot\" />
-  <ContentRoot BasePath="_content/Majorsoft.Blazor.Components.Common.JsInterop" Path="C:\Users\LEGION-5\.nuget\packages\majorsoft.blazor.components.common.jsinterop\1.5.0\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Majorsoft.Blazor.Components.CssEvents" Path="C:\Users\LEGION-5\.nuget\packages\majorsoft.blazor.components.cssevents\1.5.0\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Majorsoft.Blazor.Components.Modal" Path="C:\Users\LEGION-5\.nuget\packages\majorsoft.blazor.components.modal\1.5.0\build\..\staticwebassets\" />
 </StaticWebAssets>

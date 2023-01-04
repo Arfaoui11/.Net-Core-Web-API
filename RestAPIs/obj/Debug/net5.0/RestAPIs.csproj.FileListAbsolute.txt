@@ -142,8 +142,8 @@ C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\System.IO.Pi
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\RestApiView.dll
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\RestApiView.pdb
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\obj\Debug\net5.0\staticwebassets\RestAPIs.StaticWebAssets.xml
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\ref\RestAPIs.dll
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\Majorsoft.Blazor.Components.Common.JsInterop.dll
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\Majorsoft.Blazor.Components.CssEvents.dll
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\Majorsoft.Blazor.Components.Core.dll
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\bin\Debug\net5.0\Majorsoft.Blazor.Components.Modal.dll
+C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestAPIs\obj\Debug\net5.0\refint\RestAPIs.dll

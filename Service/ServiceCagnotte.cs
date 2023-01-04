@@ -49,9 +49,10 @@ namespace Service
             IUnitOfWork utwk = new UnitOfWork(factory);
 
             var linq = (from i in utwk.getRepository<Entreprise>().GetMany()
-                        join c in GetMany() on i.EntrepriseId equals c.Entreprise.EntrepriseId
-                        where c.Type.ToString() == Type
-                        select i).Take(2);
+                join c in GetMany() 
+                on i.EntrepriseId equals  c.Entreprise.EntrepriseId 
+                where c.Type.ToString() == Type
+                select i) .Take(2);
             return linq;
         }
     }

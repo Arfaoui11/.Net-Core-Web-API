@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Service;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Data;
 using Microsoft.EntityFrameworkCore;
@@ -16,21 +17,42 @@ namespace RestAPIs.Controllers
 
         private readonly IServiceCagnotte cagnotteService;
         private readonly IServiceEntreprise entrepriseService;
-        private readonly Context _context;
-        public CagnotteController(IServiceCagnotte sc, IServiceEntreprise se,Context ctx)
+       
+        public CagnotteController(IServiceCagnotte sc, IServiceEntreprise se)
         {
-            _context = ctx;
+           
             cagnotteService = sc;
             entrepriseService = se;
         }
 
         // GET: CagnotteController
         [HttpGet] 
-        public async Task<IActionResult> GetAllCagnotte()
+        public  IActionResult GetAllCagnotte()
         {
             
-            return Ok(await _context.Entreprise.ToArrayAsync());
+            return Ok(cagnotteService.GetMany());
 
+        }
+        
+        // GET: CagnotteController
+        [HttpGet]
+        [Route("enCours")]
+        public  IActionResult GetCagnotteEnCours()
+        {
+            
+            return Ok( cagnotteService.EnCours());
+
+        }
+        
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            Cagnotte cagnotte  = cagnotteService.GetById(id);
+            if (cagnotte != null)
+            {
+                return Ok(cagnotte);
+            }
+            return NotFound();
         }
 
         [HttpPost]
@@ -39,7 +61,7 @@ namespace RestAPIs.Controllers
         {
             try
             {
-                Console.WriteLine(cagnotte);
+                
                 cagnotteService.Add(cagnotte);
                 cagnotteService.Commit();
                 return Ok(cagnotte);
@@ -49,6 +71,41 @@ namespace RestAPIs.Controllers
                 return BadRequest(ex);
                 
             }
+        }
+        
+        // PUT: ProductController/Edit/5
+        [HttpPut]
+        [Route("update")]
+        public IActionResult EditCagnotte([FromBody] Cagnotte cagnotte)
+        {
+            
+            try
+            {
+
+                cagnotteService.Update(cagnotte);
+                entrepriseService.Commit();
+
+                return  Ok(cagnotte);
+            }
+            catch(DbUpdateConcurrencyException)
+            {
+                if (!CagnotteExists(cagnotte.CagnotteId))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+
+            }
+
+                
+            
+        }
+        private bool CagnotteExists(int id)
+        {
+            return cagnotteService.GetMany().Any(c => c.CagnotteId == id);
         }
 
     }

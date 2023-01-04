@@ -87,20 +87,18 @@ using RestApiView.Shared;
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
             __builder.OpenElement(0, "h1");
-            __builder.AddContent(1, 
 #nullable restore
 #line 5 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\AddEntreprise.razor"
-     Title
+__builder.AddContent(1, Title);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.AddContent(2, " Entreprise");
             __builder.CloseElement();
             __builder.AddMarkupContent(3, "\r\n<hr>\r\n\r\n");
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Forms.EditForm>(4);
-            __builder.AddAttribute(5, "Model", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
+            __builder.AddAttribute(5, "Model", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
 #nullable restore
 #line 8 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\AddEntreprise.razor"
                   entreprise
@@ -109,7 +107,7 @@ using RestApiView.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(6, "OnValidSubmit", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            __builder.AddAttribute(6, "OnValidSubmit", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 8 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\AddEntreprise.razor"
                                              SaveEntreprise
@@ -129,7 +127,7 @@ using RestApiView.Shared;
                 __builder2.AddAttribute(14, "class", "col-md-4");
                 __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(15);
                 __builder2.AddAttribute(16, "class", "form-control");
-                __builder2.AddAttribute(17, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddAttribute(17, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 13 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\AddEntreprise.razor"
                                                          entreprise.NomEntreprise
@@ -138,8 +136,8 @@ using RestApiView.Shared;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(18, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => entreprise.NomEntreprise = __value, entreprise.NomEntreprise))));
-                __builder2.AddAttribute(19, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => entreprise.NomEntreprise));
+                __builder2.AddAttribute(18, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => entreprise.NomEntreprise = __value, entreprise.NomEntreprise))));
+                __builder2.AddAttribute(19, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => entreprise.NomEntreprise));
                 __builder2.CloseComponent();
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(20, "\r\n        ");
@@ -161,7 +159,7 @@ using RestApiView.Shared;
                 __builder2.AddAttribute(28, "class", "col-md-4");
                 __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(29);
                 __builder2.AddAttribute(30, "class", "form-control");
-                __builder2.AddAttribute(31, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddAttribute(31, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 20 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\AddEntreprise.razor"
                                                          entreprise.MailEntreprise
@@ -170,8 +168,8 @@ using RestApiView.Shared;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(32, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => entreprise.MailEntreprise = __value, entreprise.MailEntreprise))));
-                __builder2.AddAttribute(33, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => entreprise.MailEntreprise));
+                __builder2.AddAttribute(32, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => entreprise.MailEntreprise = __value, entreprise.MailEntreprise))));
+                __builder2.AddAttribute(33, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => entreprise.MailEntreprise));
                 __builder2.CloseComponent();
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(34, "\r\n        ");
@@ -193,7 +191,7 @@ using RestApiView.Shared;
                 __builder2.AddAttribute(42, "class", "col-md-4");
                 __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(43);
                 __builder2.AddAttribute(44, "class", "form-control");
-                __builder2.AddAttribute(45, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddAttribute(45, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 27 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Pages\AddEntreprise.razor"
                                                          entreprise.AdresseEntreprise
@@ -202,8 +200,8 @@ using RestApiView.Shared;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(46, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => entreprise.AdresseEntreprise = __value, entreprise.AdresseEntreprise))));
-                __builder2.AddAttribute(47, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => entreprise.AdresseEntreprise));
+                __builder2.AddAttribute(46, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => entreprise.AdresseEntreprise = __value, entreprise.AdresseEntreprise))));
+                __builder2.AddAttribute(47, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => entreprise.AdresseEntreprise));
                 __builder2.CloseComponent();
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(48, "\r\n        ");

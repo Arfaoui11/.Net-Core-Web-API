@@ -34,7 +34,7 @@ namespace Domain
         public int EntrepriseId { get; set; }
         [JsonIgnore]
         public virtual Entreprise Entreprise { get; set; }
-        [JsonIgnore]
+       
         public virtual ICollection<Participation> Participations { get; set; }
 
 

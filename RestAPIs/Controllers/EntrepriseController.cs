@@ -29,6 +29,15 @@ namespace RestAPIs.Controllers
             return Ok(entrepriseService.GetMany());
 
         }
+        // GET: EntrepriseController
+        [HttpGet]
+        [Route("plusParticip")]
+        public IActionResult PlusParticipations()
+        {
+            return Ok(entrepriseService.PlusParticipations());
+
+        }
+        
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {

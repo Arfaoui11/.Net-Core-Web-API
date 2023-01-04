@@ -673,7 +673,6 @@ C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\build-gz\
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\build-gz\qdxALJ7U.gz
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\RazorDeclaration\Pages\Entreprise.razor.g.cs
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\Razor\Pages\Entreprise.razor.g.cs
-C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\bin\Debug\net5.0\ref\RestApiView.dll
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\build-gz\atkooar1.gz
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\RazorDeclaration\Pages\AddEntreprise.razor.g.cs
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\Razor\Pages\AddEntreprise.razor.g.cs
@@ -689,3 +688,4 @@ C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\build-gz\
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\build-gz\IJNlCLUp.gz
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\build-gz\X+TReq9m.gz
 C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\build-gz\9G02za9i.gz
+C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\obj\Debug\net5.0\refint\RestApiView.dll

@@ -101,15 +101,13 @@ using RestApiView.Shared;
             __builder.OpenElement(12, "div");
             __builder.AddAttribute(13, "class", "content px-4");
             __builder.AddAttribute(14, "b-6o4jswhq75");
-            __builder.AddContent(15, 
 #nullable restore
 #line 14 "C:\Users\LEGION-5\Desktop\NET CORS\Examen\RestApiView\Shared\MainLayout.razor"
-             Body
+__builder.AddContent(15, Body);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.CloseElement();
